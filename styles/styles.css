@@ -29,6 +29,16 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+.btn-primary {
+    border-radius: 42px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 16px 40px;
+    border: none;
+}
+
 .section-title {
     font-size: 3rem;
     font-weight: 900;
@@ -62,14 +72,12 @@
 }
 
 .nav-links {
-    display: flex;
     gap: 60px;
     list-style: none;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
     padding: 6px 5px;
     margin: 60px 0 40px;
-
 }
 
 .navbar a {
@@ -81,6 +89,7 @@
     font-size: 2.2rem;
     font-weight: 800;
     margin: 60px 0 40px;
+    font-style: italic;
 }
 
 #home {
@@ -91,3 +100,73 @@
 }
 
 /* Banner related styles */
+.banner {
+    gap: 150px;
+}
+
+.banner-title {
+    font-size: 5rem;
+    font-weight: 900;
+    margin-top: 70px;
+}
+
+.shape {
+    font-weight: 600;
+    font-size: 6rem;
+}
+
+.banner-desc {
+    margin: 28px 0;
+}
+
+.banner-btn {
+    gap: 16px;
+}
+
+.banner-float-object-1,
+.banner-float-object-2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    max-width: fit-content;
+    padding: 24px;
+}
+
+.banner-float-object-1 {
+    position: relative;
+    top: -450px;
+    left: 200px;
+}
+
+.banner-float-object-2 {
+    position: relative;
+    bottom: 250px;
+    right: 80px;
+    gap: 12px;
+    align-items: center;
+}
+
+.float-object-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.float-object-num-1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.float-object-num-2 {
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.red-circle {
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
