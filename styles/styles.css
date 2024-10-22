@@ -214,3 +214,31 @@ main {
     font-weight: 600;
     margin: 28px auto 10px;
 }
+
+/* Run extra section styles */
+.run-extra {
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.run-extra-content {
+    width: 40%;
+}
+
+.runner-img {
+    width: 45%;
+}
+
+.run-extra-desc {
+    margin: 16px 0 30px;
+    line-height: 150%;
+}
+
+.runner-img>img {
+    width: 100%;
+    border-radius: 18px;
+}
