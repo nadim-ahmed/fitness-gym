@@ -131,6 +131,17 @@ body {
     gap: 16px;
 }
 
+.download-app-btn {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 16px 40px;
+    cursor: pointer;
+    background-color: black;
+}
+
 .banner-float-object-1,
 .banner-float-object-2 {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -187,6 +198,8 @@ body {
 
 .habits-header {
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .habits-desc {
@@ -196,7 +209,12 @@ body {
 .habits-items {
     justify-content: space-between;
     text-align: center;
-    gap: 16px;
+    gap: 36px;
+}
+
+.motivation {
+    width: 80%;
+    margin: auto;
 }
 
 .motivation>img {
@@ -238,6 +256,35 @@ body {
     border-radius: 18px;
 }
 
+/* Training section styles */
+.training {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.training-header {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.training-desc {
+    margin: 14px auto 60px;
+}
+
+.training-img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 90px;
+}
+
+.training-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
 /* BMI calculator styles */
 .bmi-calculator {
     margin-bottom: 90px;
@@ -250,8 +297,6 @@ body {
 .bmi-header-desc {
     margin: 14px auto 80px;
 }
-
-.bmi-calc-container {}
 
 .bmi-chart {
     width: 40%;
@@ -335,6 +380,11 @@ th {
     max-width: 1060px;
     margin: 0 auto;
     text-align: center;
+}
+
+.our-team-header {
+    width: 80%;
+    margin: auto;
 }
 
 .our-team-desc {
@@ -446,7 +496,7 @@ hr {
     .banner {
         flex-direction: column;
         align-items: center;
-        padding: 50px;
+        padding: 20px;
     }
 
     .habits-header {
@@ -473,6 +523,19 @@ hr {
     }
 
     .runner-img {
+        width: 100%;
+    }
+
+    .training-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .training-img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .training-img img {
         width: 100%;
     }
 
@@ -523,5 +586,9 @@ hr {
 
     .footer-links-2 {
         width: 100%;
+    }
+
+    hr {
+        width: 80%;
     }
 }
